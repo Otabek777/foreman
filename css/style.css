@@ -2000,6 +2000,7 @@ ul, ol {
 }
 .login__block .input {
   width: 360px;
+  position: relative;
 }
 .login__block .input input {
   background: #F6F8F9;
@@ -2028,6 +2029,13 @@ ul, ol {
 }
 .login__block .input input::placeholder {
   color: #414253;
+}
+.login__block .input .icon {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  right: 20px;
 }
 
 .login__entrance {
