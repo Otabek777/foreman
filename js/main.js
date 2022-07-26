@@ -1,10 +1,10 @@
 if(document.querySelector(".switching")) {
     $(".switching #btn1").click(function() {
-        $(this).addClass("active");
+        $(".switching #btn1").addClass("active");
         $(".switching #btn2").removeClass("active");
     });
     $(".switching #btn2").click(function() {
-        $(this).addClass("active");
+        $(".switching #btn2").addClass("active");
         $(".switching #btn1").removeClass("active");
     });
 };
