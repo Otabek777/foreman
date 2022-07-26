@@ -68,6 +68,9 @@
                             <path d="M16.8572 17.3428L20.5238 21" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                         </svg>
                     </button>
+                    <button class="header__burgir">
+                        <span></span><span></span><span></span>
+                    </button>
                     <a href="tel:8-800-111-11-11 " class="btn_phone">8-800-111-11-11 </a>
                     <a href="#" class="btn_catalog">Перейти в каталог</a>
                 </div>
@@ -589,14 +592,32 @@
             slidesToShow: 5,
             slidesToScroll: 1,
             arrows: false,
-            dots: false
+            dots: false,
+            responsive: [
+                {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+                }
+            ]
         });
         $('.technique__slider').slick({
             infinite: true,
             slidesToShow: 4,
             slidesToScroll: 1,
             arrows: false,
-            dots: false
+            dots: false,
+            responsive: [
+                {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                }
+                }
+            ]
         });
     </script>
 </body>
