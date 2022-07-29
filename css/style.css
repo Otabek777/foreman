@@ -5662,6 +5662,103 @@ ul, ol {
     margin-bottom: 50px;
   }
 
+  .login {
+    display: block;
+    padding-bottom: 37px;
+  }
+
+  .login__banner {
+    height: 316px;
+    background: url(../img/login-banner-mobile.png) no-repeat center/cover;
+  }
+
+  .login__block {
+    height: auto;
+    margin-top: -60px;
+    width: calc(100% - 26px);
+    padding: 0 10px;
+    padding-top: 24px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+  }
+
+  .login__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .login__registration {
+    max-width: 300px;
+    margin-top: 67px;
+    margin-bottom: 100px;
+  }
+  .login__registration .input {
+    margin-bottom: 20px;
+  }
+
+  .login__block .links {
+    padding: 0 28px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
+  .login__block .links .link {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 134.75%;
+    margin-right: 30px;
+  }
+
+  .login__block .links .link.active {
+    font-size: 20px;
+    line-height: 134.75%;
+    font-weight: 800;
+  }
+
+  .login__entrance {
+    max-width: 300px;
+    margin-top: 48px;
+    margin-bottom: 84px;
+  }
+
+  .login__block .input {
+    width: 100%;
+  }
+
+  .login__btn {
+    max-width: 300px;
+    height: 50px;
+    font-size: 14px;
+    line-height: 17px;
+    border-radius: 10px;
+  }
+
+  .login__code {
+    margin-top: 40px;
+    margin-bottom: 58px;
+    max-width: 300px;
+  }
+
+  .login__code .title {
+    text-align: start;
+  }
+
+  .login__code .text {
+    font-size: 14px;
+    line-height: 16px;
+    text-align: start;
+    margin-bottom: 38px;
+  }
+
+  .login__code .link_box {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+
   .footer {
     padding: 0 10px;
     padding-top: 30px;
