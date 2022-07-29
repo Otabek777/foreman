@@ -1,3 +1,7 @@
+$(".header__burgir").click(function() {
+    $(this).toggleClass("active");
+    $(".header__navbar").toggleClass("active");
+});
 if(document.querySelector(".switching")) {
     $(".switching #btn1").click(function() {
         $(".switching #btn1").addClass("active");
@@ -12,6 +16,19 @@ if(document.querySelector(".switching")) {
 if(document.querySelector(".btn_open")) {
     $(".btn_open").click(function() {
         $(this).toggleClass("active");
+    });
+}
+if(document.querySelector(".technique__block")) {
+    $(".technique__block .like").click(function() {
+        $(this).toggleClass("active");
+    });
+}
+if(document.querySelector(".open_filter")) {
+    $(".open_filter").click(function() {
+        $(".equipment__aside").toggleClass("active");
+    });
+    $(".close_filter").click(function() {
+        $(".equipment__aside").removeClass("active");
     });
 }
 
