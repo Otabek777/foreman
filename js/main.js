@@ -15,6 +15,24 @@ if(document.querySelector(".switching")) {
         $(".switching #btn1").removeClass("active");
     });
 };
+if(document.querySelector(".cabinet__content_switch")) {
+    $(".cabinet__content_switch #btn1").click(function() {
+        $(".cabinet__content_switch #btn1").addClass("active");
+        $(".cabinet__content_switch #btn2").removeClass("active");
+    });
+    $(".cabinet__content_switch #btn2").click(function() {
+        $(".cabinet__content_switch #btn2").addClass("active");
+        $(".cabinet__content_switch #btn1").removeClass("active");
+    });
+}
+if(document.querySelector(".open-admin-menu")) {
+    $(".open-admin-menu").click(function() {
+        $(".cabinet__aside").addClass("active")
+    });
+    $(".cabinet__aside_close").click(function() {
+        $(".cabinet__aside").removeClass("active")
+    });
+};
 
 if(document.querySelector(".btn_open")) {
     $(".btn_open").click(function() {

@@ -106,6 +106,7 @@
         <section class="cabinet">
             <div class="cabinet__box">
                 <div class="cabinet__aside">
+                    <button class="cabinet__aside_close"></button>
                     <div class="cabinet__person">
                         <div class="cabinet__img">
                             <img src="img/person.png" alt="">
@@ -206,11 +207,21 @@
                     </a>
                 </div>
                 <div class="cabinet__content">
+                    <button class="open-admin-menu">
+                        <div class="line">
+                            <span></span><span></span><span></span>
+                        </div>
+                        Меню
+                    </button>
                     <div class="cabinet_responses">
                         <div class="cabinet__content__title">
                             <div>
                                 <p class="title">Отклики</p>
                                 <p class="title2">Вы откликнулись на эти заявки:</p>
+                            </div>
+                            <div class="cabinet__content_switch">
+                                <button class="btn" id="btn1">Полученные</button>
+                                <button class="btn active" id="btn2">Мои отклики</button>
                             </div>
                         </div>
                         <div class="cabinet_responses__box">
