@@ -53,7 +53,13 @@ if(document.querySelector(".open_filter")) {
     });
 }
 
-if(document.querySelector("#modal-card1")) {
+if(document.querySelector(".modal")) {
+    $(".modal_close").click(function() {
+        $(".modal").removeClass("active");
+    });
+    $(".modal__btn2").click(function() {
+        $(".modal").removeClass("active");
+    });
     $(".card__right .btn1").click(function() {
         $("#modal-card1").addClass("active")
     });

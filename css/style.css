@@ -2424,6 +2424,14 @@ ul, ol {
   padding-top: 160px;
 }
 
+.modal_close {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .modal.active {
   display: block;
 }
@@ -2440,6 +2448,7 @@ ul, ol {
   padding: 53px;
   padding-left: 80px;
   position: relative;
+  z-index: 2;
 }
 .modal__card .soc {
   display: -webkit-box;
@@ -5724,7 +5733,20 @@ ul, ol {
   display: none;
 }
 
+@media screen and (max-width: 1800px) {
+  .product__wrap .img img {
+    width: 80%;
+  }
+
+  .technique__block {
+    width: 100%;
+  }
+}
 @media screen and (max-width: 768px) {
+  .radio_box .radio:nth-child(2) label {
+    padding-left: 12px;
+  }
+
   .open-admin-menu {
     display: -webkit-box;
     display: -ms-flexbox;
