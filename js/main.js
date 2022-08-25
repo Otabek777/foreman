@@ -60,6 +60,9 @@ if(document.querySelector(".modal")) {
     $(".modal__btn2").click(function() {
         $(".modal").removeClass("active");
     });
+    $(".modal__btn").click(function() {
+        $(".modal").removeClass("active");
+    });
     $(".card__right .btn1").click(function() {
         $("#modal-card1").addClass("active")
     });
