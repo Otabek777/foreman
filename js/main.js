@@ -60,14 +60,14 @@ if(document.querySelector(".modal")) {
     $(".modal__btn2").click(function() {
         $(".modal").removeClass("active");
     });
-    $(".modal__btn").click(function() {
-        $(".modal").removeClass("active");
-    });
     $(".card__right .btn1").click(function() {
         $("#modal-card1").addClass("active")
     });
     $(".card__right .btn2").click(function() {
         $("#modal-card2").addClass("active")
+    });
+    $("#open-calendar").click(function() {
+        $(".calendar").addClass("open")
     });
 };
 if(document.querySelector(".cabinet_ads__item .options")) {
